@@ -2,6 +2,8 @@ const request = require('request');
 
 // API Url to search for Cat Breeds
 //  https://api.thecatapi.com/v1/breeds/search?q=[catBreed]
+
+//command line function to dynamically request a breed
 if (process.argv.length > 2) {
   process.argv.slice(2).forEach(breed => {
 
